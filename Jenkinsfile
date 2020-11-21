@@ -36,8 +36,8 @@ pipeline {
     stage('sonarqube deploy'){
       steps {
         dir('CLOUDAPPI.ApiUsers') { 
-              sh 'mvn clean install'         
-              sh 'mvn test sonar:sonar -Dsonar.projectKey=cloudAppi -Dsonar.host.url=http://localhost:9000  -Dsonar.login=7ee0906dd7a0ab120cb66e4f8e0a3177f4b09d9e'
+              // sh 'mvn clean install'         
+              sh 'mvn sonar:sonar -Dsonar.projectKey=cloudAppi -Dsonar.host.url=http://localhost:9000  -Dsonar.login=7ee0906dd7a0ab120cb66e4f8e0a3177f4b09d9e'
         }
       }
     }
