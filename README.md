@@ -9,19 +9,19 @@ https://s3-eu-west-1.amazonaws.com/mmi-codechallenge/swagger-users-v1.json
 
 **** Url Base del API
 
-http://ec2-3-139-57-50.us-east-2.compute.amazonaws.com:8090/ 
+http://ec2-13-59-194-189.us-east-2.compute.amazonaws.com:8090/ 
 
 **** Url Sonarqube
 
-http://ec2-3-139-57-50.us-east-2.compute.amazonaws.com:9000/dashboard?id=cloudAppi
+http://ec2-13-59-194-189.us-east-2.compute.amazonaws.com:9000/dashboard?id=cloudAppi
 
 **** Url swagger
 
-http://ec2-3-139-57-50.us-east-2.compute.amazonaws.com:8090/swagger-ui.html
+http://ec2-13-59-194-189.us-east-2.compute.amazonaws.com:8090/swagger-ui.html
 
 **** Url Jenkins
 
-http://ec2-3-139-57-50.us-east-2.compute.amazonaws.com:8080/login?from=%2F 
+http://ec2-13-59-194-189.us-east-2.compute.amazonaws.com:8080/login?from=%2F 
 
 credentials: cloudappi:cloudappi
 
